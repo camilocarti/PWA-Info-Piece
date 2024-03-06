@@ -1,0 +1,363 @@
+body {
+    margin: 0 auto;
+    height: 100%;
+    background-color:rgb(63, 133, 238);  
+    font-family: "Signika", sans-serif;
+}
+
+
+.contenedor-mugi h2{
+    color: rgb(104, 137, 237);
+    font-size: 25px;
+}
+
+.contenedor-mugi h3{
+    color: red;
+    font-size: 20px;
+}
+
+
+button{
+    color:black;
+    background-color: rgb(70, 214, 250);
+}
+
+.contenedor-mugi img{
+    width: auto;
+    height: 250px;
+}
+
+.mugiwaras{
+    background-color: rgb(198, 224, 192);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+#img-slide{
+    width: 30%;
+    margin: auto;
+    height: 500px;
+}
+
+#navbarNav {
+    justify-content: center;
+    background-color: rgb(222, 76, 76);
+}
+
+header {
+    padding: auto;
+    color: #ffffff; 
+    font-size: 25px;
+    background-color:rgb(0, 0, 0);
+    border-radius: 1px;
+    margin-bottom: 1.5em;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+.h2{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+}
+
+.logo1{
+    height: 100px;
+    width: 100px;
+    display: flex center;
+    margin-top: 8px;
+}
+
+
+
+/*menu hamburguesa*/
+
+
+.bg-pink{
+    background-color: rgb(238, 72, 72);
+}
+
+.navbar .navbar-toggler{
+    border: none;
+}
+
+
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar .navbar-toggler-icon{
+    background: url(./img/fruta_luffy.png) no-repeat center center;
+    background-size: cover;
+}
+
+
+
+
+.contenedor1{
+    border: solid 1px black;
+}
+
+.image-text-container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(204, 231, 222);
+    border: black solid 1px;
+}
+
+.image-text-container img {
+    max-width: 20%;
+    margin-right: 20px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+
+/* Seccion 2*/
+
+.image-text-container2 {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(226, 246, 248);
+    border: black solid 1px;
+}
+
+.image-text-container2 img {
+    max-width: 30%;
+    margin-right: 25px;
+    border: 1px solid black;
+}
+
+/* Seccion 2*/
+
+.image-text-container .text {
+    flex: 1;
+}
+
+.image-text-container h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px; 
+}
+
+
+
+
+
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+
+    .footer-container {
+        text-align: center;
+        background-color: black;
+        padding: 10px;
+      }
+
+      .footer-container p {
+        color: white;
+      }
+
+
+.imgECO {
+    width: 100%;
+}
+
+.imgECO img {
+    width: 100%;
+    height: auto;
+}
+
+.img{
+    width: 50%;
+    height: 50%;
+}
+
+
+
+
+
+@media (max-width: 767px) {
+body{
+    margin: 5%;
+}
+
+    .image-text-container {
+        flex-direction: column; 
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #carouselExampleIndicators{
+        width: 100%;
+        height: 200px;
+    }
+
+    .reservar{
+        font-size: 40px;
+    }
+
+    .h2{
+        font-size: 40px;
+    }
+
+    .ofertas{
+        font-size: 40px;
+    }
+
+
+    header{
+        width: auto;
+        font-size: 15px;
+    }
+
+    header h1{
+        font-size: 35px;
+    }
+
+    header img{
+        max-width: 100%; 
+        margin-right: 0;
+    }
+    .image-text-container img {
+        max-width: 100%; 
+        margin-right: 0; 
+    }
+
+    .image-text-container2{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-text-container2 img{
+        max-width: 100%; 
+        margin-right: 0; 
+    }
+    .video-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .video-container iframe{
+        max-width: 100%; 
+        margin-right: 0; 
+    }
+
+
+    .contenedor-de-2024{
+        flex-direction: column;
+        text-align: center;
+        max-width: 100%;
+    }
+
+}
+
+
+
+/* Restaura el diseño original en dispositivos más grandes */
+@media (min-width: 768px) and (max-width: 990px) {
+
+
+
+    .contenedor-de-2024{
+        flex-direction: column;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .image-text-container,
+    .image-text-container2 {
+        flex-direction: row; 
+        align-items: center;
+        text-align: center
+    }
+
+    .image-text-container img,
+    .image-text-container2 img {
+        max-width: 30%; 
+        height: 30%;
+        margin-right: 20px; 
+    }
+
+    header img{
+        max-width: 100%;
+            height: 100%;
+            margin-right: 0%; 
+    }
+}
+
+
+@media (min-width: 991px) {
+    
+}
+
+
+.contenedor-de-2024{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.contenedor-de-2024 button{
+    justify-content: center;
+    width: auto;
+}
+
+.contenedor-de-2024 h5{
+    text-align: center;
+    width: auto;
+}
+
+.contenedor-de-2024 p{
+    text-align: center;
+    width: auto;
+}
+
+
+.reservar{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.ofertas{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.subtitulo{
+    font-size: 20px;
+}
+
+/* animacion */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.subtitulo {
+    animation: fadeIn 1s ease-out; 
+}
